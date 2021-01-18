@@ -1017,20 +1017,20 @@ while 1:
             sc.blit(win.image, win.rect)
             sc.blit(homebutton.image, homebutton.rect)
             homebutton.show()
-    if gameoverflag:
-        sc.blit(gameover.image, gameover.rect)
-        sc.blit(restartaftergmvr.image, restartaftergmvr.rect)
-        text = font.render("Score: " + str(alien.coinscounter), True, (0, 0, 0))
-        sc.blit(text, textpos)
-        sc.blit(homebutton.image, homebutton.rect)
-        pygame.display.update()
-    if winflag:
-        sc.blit(win.image, win.rect)
-        sc.blit(restartaftergmvr.image, restartaftergmvr.rect)
-        text = font.render("Score: " + str(alien.coinscounter), True, (0, 0, 0))
-        sc.blit(text, textpos)
-        sc.blit(homebutton.image, homebutton.rect)
-        pygame.display.update()
-    if startwindowflag:
-        pygame.display.update()
-    clock.tick(30)
+    # if gameoverflag:
+    #     sc.blit(gameover.image, gameover.rect)
+    #     sc.blit(restartaftergmvr.image, restartaftergmvr.rect)
+    #     text = font.render("Score: " + str(alien.coinscounter), True, (0, 0, 0))
+    #     sc.blit(text, textpos)
+    #     sc.blit(homebutton.image, homebutton.rect)
+    #     pygame.display.update()
+    # if winflag:
+    #     sc.blit(win.image, win.rect)
+    #     sc.blit(restartaftergmvr.image, restartaftergmvr.rect)
+    #     text = font.render("Score: " + str(alien.coinscounter), True, (0, 0, 0))
+    #     sc.blit(text, textpos)
+    #     sc.blit(homebutton.image, homebutton.rect)
+    #     pygame.display.update()
+    # if startwindowflag:
+    #     pygame.display.update()
+    # clock.tick(30)
